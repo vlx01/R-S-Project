@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Unlocking Human Potential, Driving Business Excellence">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HR,HR Consultancy,consultant, people"> 
+    <script src="https://kit.fontawesome.com/5074ba922e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>PeoplePro | Contact</title>
+
+    <style>
+        #navbar{
+        background-color: #333;
+        color: white;
+        overflow: auto;
+    }
+    
+    #navbar a{
+        color: white;
+    }
+    
+    #navbar .logo {
+        float: left;
+        padding-top: 20px;
+    }
+    
+    #navbar ul{
+        float: right;
+        list-style: none;
+    }
+    
+    #navbar ul li{
+        float: left;
+    }
+    
+    #navbar ul li a{
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #navbar ul li a:hover, 
+    #navbar ul li a.current{
+        background: #444;
+        color: #f7c08a;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">PPro</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a><li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="current" href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Styling</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        /* 
+        -May want to add "border-box for "box-sizing so padding does not affect width
+        -Reset margin and padding 
+       */
+       box-sizing: border-box;
+       margin: 0px;
+       padding: 0px;
+      }
+
+      html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    }
+
+      body {
+        /* 
+          -Background color is #344a72
+        */
+        background-color: #eebb7c;
+        font-family: Raleway, sans-serif;
+        
+      }
+
+      h1,h2,h3 {
+    padding-bottom: 20px;
+    }
+      
+      a {
+        /* 
+        Underlined links are ugly :)
+       */
+       text-decoration: none;
+      }
+
+      #container {
+        margin: 30px auto;
+        max-width: 370px;
+        padding-top: 30px;
+        /* 
+        -Remember, margin: auto on left and right will center a block element 
+        -I would also set a "max-width" for responsiveness
+        -May want to add some padding
+        */
+      }
+
+      .form-wrap {
+        border-style: solid;
+        background-color: white;
+        border-color: white;
+        padding: 15px 20px;
+      /* 
+          This is the white area around the form and heading, etc
+        */
+      }
+
+      .form-wrap h1,
+      .form-wrap p {
+        text-align: center;
+        line-height: 1.8;
+        /* 
+          May want to center these
+        */
+      }
+
+      .form-wrap .form-group {
+        /* 
+          Each label, input is wrapped in .form-group
+        */
+        margin-top: 10px;
+      }
+
+      .form-wrap .form-group label {
+        /* 
+          Label should be turned into a block element
+        */
+        display: block;
+        padding:5px;
+        color: #696969;  
+      }
+
+      .form-wrap .form-group input {
+        /* 
+          Inputs should reach accross the .form-wrap 100% and have some padding
+        */
+        width:100%;
+        padding:10px;
+        margin-left:8px 0;
+        border-radius: 5px;
+        border-color: #f4f8f8; 
+        border-style: solid;
+        
+      }
+
+      .form-wrap button {
+        /* 
+          Button should wrap accross 100% and display as block
+          Background color for button is #49c1a2
+        */
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #49c1a2;
+        color: white;
+        margin: 20px 0;
+      }
+
+      .form-wrap button:hover {
+        /* 
+          Hover background color for button is #37a08e
+        */
+        background-color: #37a08e;
+        cursor: pointer;
+        
+      }
+
+      .form-wrap .bottom-text {
+        /* 
+          Bottom text is smaller
+        */
+        font-size: 12px;
+        margin: 10px;
+      }
+
+      footer {
+        /* 
+        Should be centered
+       */
+       text-align: center;
+       color: white;
+       margin-top: 10px;
+      }
+
+      footer a {
+        /* 
+          Footer link color is #49c1a2
+        */
+        color: #49c1a2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <h1>Apply Here</h1>
+        <p>Business Development Manager</p>
+        <form>
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="first-name" />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastName" id="last-name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Work Experience (in months) </label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="form-group">
+            <label for="password2">Resume</label>
+            <input type="file" name="pasword2" id="password2" />
+          </div>
+          <button type="submit" class="btn">Submit</button>
+          <p class="bottom-text">
+            By clicking the Submit button, you agree to our
+            <a href="#">Terms & Conditions</a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
