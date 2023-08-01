@@ -128,7 +128,7 @@ p {
 
 /* Showcase */
 #showcase {
-    background: url('/Users/vaishnavivarshney/Desktop/Hotel_Website-main/img/showcase1.jpeg') no-repeat center center/cover;
+    background: URL(..img/showcase1.jpeg) no-repeat center center/cover;
     height: 600px;
 }
 
